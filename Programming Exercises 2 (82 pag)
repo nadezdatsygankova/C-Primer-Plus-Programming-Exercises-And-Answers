@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void)
+{
+
+printf("Nadezda Tsy\n");
+printf("100 -30 Bulvar\nToronto\n");
+;
+return 0;
+}
