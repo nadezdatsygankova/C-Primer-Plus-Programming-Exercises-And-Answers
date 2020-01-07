@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void)
+{
+    int year, days;
+    year =35;
+    days = year*365;
+
+    printf("My year is %d and it is %d days", year,days);
+
+return 0;
+}
+
