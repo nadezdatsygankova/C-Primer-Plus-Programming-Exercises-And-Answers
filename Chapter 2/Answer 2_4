@@ -1,0 +1,28 @@
+//Answer 2_4
+
+
+/* Indiana Sloth has prepared the following program and brought it to you for approval.
+Please help him out.
+include studio.h
+int main{void} /* this prints the number of weeks in a year /*
+(
+int s
+s := 56;
+print(There are s weeks in a year.);
+return 0; */
+
+
+
+
+
+#include <stdio.h>
+int main(void) //*this prints the number of weeks in a year 
+{
+    int s;  
+    s = 56;
+    printf("There are %d weeks in a year.",s);
+    
+    return 0;
+}
+    
+    
