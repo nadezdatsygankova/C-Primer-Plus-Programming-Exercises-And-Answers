@@ -1,9 +1,0 @@
-#include <stdio.h>
-int main(void)
-{
-
-printf("Nadezda Tsy\n");
-printf("Nadezda\nTsy\n");
-printf("Nadezda Tsy\n");
-return 0;
-}
