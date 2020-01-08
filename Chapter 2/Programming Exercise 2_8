@@ -1,0 +1,46 @@
+// Programming Exercise 2_8
+/*In C, one function can call another. Write a program that calls a function named one_
+three() . This function should display the word one on one line, call a second function
+named two() , and then display the word three on one line. The function two() should
+display the word two on one line. The main() function should display the phrase
+starting now: before calling one_three() and display done! after calling it. Thus, the
+output should look like the following:
+starting now:
+one
+two
+three
+done!*/
+
+
+
+
+#include <stdio.h> 
+
+void one_tree(void);
+void two(void);
+void three(void);
+
+int main(void)
+{
+    printf("starting now:\n");
+    one_tree();
+}
+
+void one_tree(void)
+{
+    printf("one \n");
+     two();
+
+}
+
+void two(void)
+{
+    printf("two \n");
+    three();
+}
+
+void three(void)
+{
+    printf("three\n");
+    printf("done!\n");
+}
